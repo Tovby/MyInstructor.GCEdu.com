@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Courses | MyInstructor-GCEdu</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="site-header">
+    <h1 class="site-title home-title">
+      <img class="home-logo" src="Gordon.png.webp" alt="Gordon College logo">
+      <span>HOME</span>
+    </h1>
+    <p class="home-description">Welcome to MyInstructor-GCEdu</p>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="nav-button" href="courses.html" aria-current="page">Courses</a>
+    </nav>
+    <section class="course-colors" aria-label="Course color options">
+      <button class="color-button color-orange" type="button" aria-pressed="false" aria-controls="department-ccs" data-department="ccs">CCS</button>
+      <button class="color-button color-red" type="button" aria-pressed="false" aria-controls="department-cahs" data-department="cahs">CAHS</button>
+      <button class="color-button color-pink" type="button" aria-pressed="false" aria-controls="department-chtm" data-department="chtm">CHTM</button>
+      <button class="color-button color-light-blue" type="button" aria-pressed="false" aria-controls="department-ceas" data-department="ceas">CEAS</button>
+      <button class="color-button color-yellow" type="button" aria-pressed="false" aria-controls="department-cba" data-department="cba">CBA</button>
+    </section>
+    <section class="department-info" id="department-ccs" data-department-panel="ccs" aria-labelledby="heading-ccs" hidden>
+      <h2 id="heading-ccs">CCS Information</h2>
+      <div class="department-sections" aria-label="CCS information categories">
+        <button class="info-button" type="button" data-info="dean" aria-pressed="false">DEAN's Information</button>
+        <button class="info-button" type="button" data-info="location" aria-pressed="false">LOCATION</button>
+        <button class="info-button" type="button" data-info="contact" aria-pressed="false">CONTACT</button>
+        <button class="info-button" type="button" data-info="other" aria-pressed="false">OTHER INFORMATION</button>
+      </div>
+      <section class="department-entry" data-info-panel="dean" hidden>
+        <h3>DEAN's Information</h3>
+        <div class="photo-placeholder" role="img" aria-label="CCS dean photo placeholder">Photo goes here</div>
+        <p class="info-placeholder">Information will be added here.</p>
+      </section>
+      <section class="department-entry" data-info-panel="location" hidden>
+        <h3>LOCATION</h3>
+        <div class="photo-placeholder" role="img" aria-label="CCS location photo placeholder">Photo goes here</div>
+        <p class="info-placeholder">Information will be added here.</p>
+      </section>
+      <section class="department-entry" data-info-panel="contact" hidden>
+        <h3>CONTACT</h3>
+        <div class="photo-placeholder" role="img" aria-label="CCS contact photo placeholder">Photo goes here</div>
+        <p class="info-placeholder">Information will be added here.</p>
+      </section>
+      <section class="department-entry" data-info-panel="other" hidden>
+        <h3>OTHER INFORMATION</h3>
+        <p class="info-placeholder">Add your information here.</p>
+      </section>
+    </section>
+    <section class="department-info" id="department-cahs" data-department-panel="cahs" aria-labelledby="heading-cahs" hidden>
+      <h2 id="heading-cahs">CAHS Information</h2>
+      <div class="department-sections" aria-label="CAHS information categories">
+        <button class="info-button" type="button" data-info="dean" aria-pressed="false">DEAN's Information</button>
+        <button class="info-button" type="button" data-info="location" aria-pressed="false">LOCATION</button>
+        <button class="info-button" type="button" data-info="contact" aria-pressed="false">CONTACT</button>
+        <button class="info-button" type="button" data-info="other" aria-pressed="false">OTHER INFORMATION</button>
+      </div>
+      <section class="department-entry" data-info-panel="dean" hidden>
+        <h3>DEAN's Information</h3>
+        <div class="photo-placeholder" role="img" aria-label="CAHS dean photo placeholder">Photo goes here</div>
+        <p class="info-placeholder">Information will be added here.</p>
+      </section>
+      <section class="department-entry" data-info-panel="location" hidden>
+        <h3>LOCATION</h3>
+        <div class="photo-placeholder" role="img" aria-label="CAHS location photo placeholder">Photo goes here</div>
+        <p class="info-placeholder">Information will be added here.</p>
+      </section>
+      <section class="department-entry" data-info-panel="contact" hidden>
+        <h3>CONTACT</h3>
+        <div class="photo-placeholder" role="img" aria-label="CAHS contact photo placeholder">Photo goes here</div>
+        <p class="info-placeholder">Information will be added here.</p>
+      </section>
+      <section class="department-entry" data-info-panel="other" hidden>
+        <h3>OTHER INFORMATION</h3>
+        <p class="info-placeholder">Add your information here.</p>
+      </section>
+    </section>
+    <section class="department-info" id="department-chtm" data-department-panel="chtm" aria-labelledby="heading-chtm" hidden>
+      <h2 id="heading-chtm">CHTM Information</h2>
+      <div class="department-sections" aria-label="CHTM information categories">
+        <button class="info-button" type="button" data-info="dean" aria-pressed="false">DEAN's Information</button>
+        <button class="info-button" type="button" data-info="location" aria-pressed="false">LOCATION</button>
+        <button class="info-button" type="button" data-info="contact" aria-pressed="false">CONTACT</button>
+        <button class="info-button" type="button" data-info="other" aria-pressed="false">OTHER INFORMATION</button>
+      </div>
+      <section class="department-entry" data-info-panel="dean" hidden>
+        <h3>DEAN's Information</h3>
+        <div class="photo-placeholder" role="img" aria-label="CHTM dean photo placeholder">Photo goes here</div>
+        <p class="info-placeholder">Information will be added here.</p>
+      </section>
+      <section class="department-entry" data-info-panel="location" hidden>
+        <h3>LOCATION</h3>
+        <div class="photo-placeholder" role="img" aria-label="CHTM location photo placeholder">Photo goes here</div>
+        <p class="info-placeholder">Information will be added here.</p>
+      </section>
+      <section class="department-entry" data-info-panel="contact" hidden>
+        <h3>CONTACT</h3>
+        <div class="photo-placeholder" role="img" aria-label="CHTM contact photo placeholder">Photo goes here</div>
+        <p class="info-placeholder">Information will be added here.</p>
+      </section>
+      <section class="department-entry" data-info-panel="other" hidden>
+        <h3>OTHER INFORMATION</h3>
+        <p class="info-placeholder">Add your information here.</p>
+      </section>
+    </section>
+    <section class="department-info" id="department-ceas" data-department-panel="ceas" aria-labelledby="heading-ceas" hidden>
+      <h2 id="heading-ceas">CEAS Information</h2>
+      <div class="department-sections" aria-label="CEAS information categories">
+        <button class="info-button" type="button" data-info="dean" aria-pressed="false">DEAN's Information</button>
+        <button class="info-button" type="button" data-info="location" aria-pressed="false">LOCATION</button>
+        <button class="info-button" type="button" data-info="contact" aria-pressed="false">CONTACT</button>
+        <button class="info-button" type="button" data-info="other" aria-pressed="false">OTHER INFORMATION</button>
+      </div>
+      <section class="department-entry" data-info-panel="dean" hidden>
+        <h3>DEAN's Information</h3>
+        <div class="photo-placeholder" role="img" aria-label="CEAS dean photo placeholder">Photo goes here</div>
+        <p class="info-placeholder">Information will be added here.</p>
+      </section>
+      <section class="department-entry" data-info-panel="location" hidden>
+        <h3>LOCATION</h3>
+        <div class="photo-placeholder" role="img" aria-label="CEAS location photo placeholder">Photo goes here</div>
+        <p class="info-placeholder">Information will be added here.</p>
+      </section>
+      <section class="department-entry" data-info-panel="contact" hidden>
+        <h3>CONTACT</h3>
+        <div class="photo-placeholder" role="img" aria-label="CEAS contact photo placeholder">Photo goes here</div>
+        <p class="info-placeholder">Information will be added here.</p>
+      </section>
+      <section class="department-entry" data-info-panel="other" hidden>
+        <h3>OTHER INFORMATION</h3>
+        <p class="info-placeholder">Add your information here.</p>
+      </section>
+    </section>
+    <section class="department-info" id="department-cba" data-department-panel="cba" aria-labelledby="heading-cba" hidden>
+      <h2 id="heading-cba">CBA Information</h2>
+      <div class="department-sections" aria-label="CBA information categories">
+        <button class="info-button" type="button" data-info="dean" aria-pressed="false">DEAN's Information</button>
+        <button class="info-button" type="button" data-info="location" aria-pressed="false">LOCATION</button>
+        <button class="info-button" type="button" data-info="contact" aria-pressed="false">CONTACT</button>
+        <button class="info-button" type="button" data-info="other" aria-pressed="false">OTHER INFORMATION</button>
+      </div>
+      <section class="department-entry" data-info-panel="dean" hidden>
+        <h3>DEAN's Information</h3>
+        <div class="photo-placeholder" role="img" aria-label="CBA dean photo placeholder">Photo goes here</div>
+        <p class="info-placeholder">Information will be added here.</p>
+      </section>
+      <section class="department-entry" data-info-panel="location" hidden>
+        <h3>LOCATION</h3>
+        <div class="photo-placeholder" role="img" aria-label="CBA location photo placeholder">Photo goes here</div>
+        <p class="info-placeholder">Information will be added here.</p>
+      </section>
+      <section class="department-entry" data-info-panel="contact" hidden>
+        <h3>CONTACT</h3>
+    
+        <p class="info-placeholder">Information will be added here.</p>
+      </section>
+      <section class="department-entry" data-info-panel="other" hidden>
+        <h3>OTHER INFORMATION</h3>
+        <p class="info-placeholder">Add your information here.</p>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
